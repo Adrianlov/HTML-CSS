@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: linear-gradient(#ffb347, #ffcc33);
+  background-color: #e6e4e4;
   height: 17vh;
   display: flex;
   justify-content: center;
@@ -37,12 +37,13 @@ a {
   color: #000;
   font-size: 3rem;
   padding: 25px;
-  font-weight: 300;
+  font-weight: 1000;
+  margin-right: 2rem;
 }
 
 a:hover {
   color: #ffffff;
-  background-color: rgb(41, 41, 41);
+  background-color: rgb(150, 145, 145);
   border-radius: 500px 200px 800px 200px;
   transition: 250ms ease-in;
 }
@@ -54,6 +55,17 @@ a:hover {
     display: flex;
     flex-direction: column;
   }
+
+  .logo img {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 100%;
+    padding-bottom: 0;
+    width: 200px;
+  }
+
+
   nav {
     width: 100%;
     margin-right: 0;
